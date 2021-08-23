@@ -6,4 +6,8 @@ This Will Be an application displaying the astonishing view of our solar system.
 	
 Our post request will include a poll like system, where the user can vote if they would travel to mars. Each vote will persist a tally to another db.json file. We would also like to include a comment section, where users can include a their name followed by a persisting comment
 
+
+Alexander Roldan
+
 Javier
+
