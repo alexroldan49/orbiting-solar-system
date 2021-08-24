@@ -161,7 +161,7 @@ body{
 .earth .planet {
   width:40px;
   height:40px;
-  background-image: url(https://igm.space/gifs/Earth.gif);
+  background-image: url();
   animation: anti-spin 20s infinite linear;
 }
 .earth .shadow {
@@ -177,7 +177,7 @@ body{
 .mars .planet {
   width:22px;
   height:22px;
-  background-image: url(http://www.waynedunkley.com/img/solar_system/mars.png);
+  background-image: url();
   animation: anti-spin 30s infinite linear;
 }
 .mars .shadow {
