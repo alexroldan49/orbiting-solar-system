@@ -1,50 +1,50 @@
 {"planets":[
     {
         "id": 1,
-        "name": "Sun",
+        "name": "sun",
         "image": "https://pngimg.com/uploads/sun/sun_PNG13424.png",
         "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
+        "detailedImage": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
         "description": ""
     },
     {
         "id": 2,
-        "name": "Mercury",
-        "image": "http://assets.stickpng.com/images/580b585b2edbce24c47b2709.png",
+        "name": "mercury",
+        "image": "https://www.pngall.com/wp-content/uploads/2/Mercury-Planet-PNG.png",
         "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "",
+        "detailedImage": "",
         "description": ""
     },
     {
         "id": 3,
-        "name": "Venus",
+        "name": "venus",
         "image": "https://e7.pngegg.com/pngimages/9/84/png-clipart-planet-venus-symbol-venus-atmosphere-sphere-thumbnail.png",
         "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "",
+        "detailedImage": "",
         "description": ""
     },
     {
         "id": 4,
-        "name": "Earth",
+        "name": "earth",
         "image": "https://www.pngkit.com/png/full/252-2529482_planet-earth-png-picture-spinning-planet.png",
         "header": "The Place We Call Home",
-        "detailed-image": "",
+        "detailedImage": "",
         "description": ""
     },
     {
         "id": 5,
-        "name": "Mars",
+        "name": "mars",
         "image": "https://toppng.com/uploads/preview/lanet-mars-covered-in-green-vines-planet-mars-11563649474gquoicx4c3.png",
-        "header": "",
-        "detailed-image": "",
+        "header": "Plossibly Mandkind's Second Home",
+        "detailedImage": "",
         "description": ""
     },
     {
-        "id": 5,
-        "name": "Jupiter",
+        "id": 6,
+        "name": "jupiter",
         "image": "https://w7.pngwing.com/pngs/810/795/png-transparent-jupiter-the-nine-planets-solar-system-saturn-jupiter-sphere-venus-solar-system.png",
         "header": "The Earths Defense",
-        "detailed-image": "",
+        "detailedImage": "",
         "description": ""
     }
 ]}
