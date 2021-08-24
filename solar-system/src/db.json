@@ -1,0 +1,50 @@
+{"planets":[
+    {
+        "id": 1,
+        "name": "Sun",
+        "image": "https://pngimg.com/uploads/sun/sun_PNG13424.png",
+        "header": "A ball of fire responsible of all life we know",
+        "detailed-image": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Mercury",
+        "image": "http://assets.stickpng.com/images/580b585b2edbce24c47b2709.png",
+        "header": "A ball of fire responsible of all life we know",
+        "detailed-image": "",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Venus",
+        "image": "https://e7.pngegg.com/pngimages/9/84/png-clipart-planet-venus-symbol-venus-atmosphere-sphere-thumbnail.png",
+        "header": "A ball of fire responsible of all life we know",
+        "detailed-image": "",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Earth",
+        "image": "https://www.pngkit.com/png/full/252-2529482_planet-earth-png-picture-spinning-planet.png",
+        "header": "The Place We Call Home",
+        "detailed-image": "",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Mars",
+        "image": "https://toppng.com/uploads/preview/lanet-mars-covered-in-green-vines-planet-mars-11563649474gquoicx4c3.png",
+        "header": "",
+        "detailed-image": "",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Jupiter",
+        "image": "https://w7.pngwing.com/pngs/810/795/png-transparent-jupiter-the-nine-planets-solar-system-saturn-jupiter-sphere-venus-solar-system.png",
+        "header": "The Earths Defense",
+        "detailed-image": "",
+        "description": ""
+    }
+]}
