@@ -1,7 +1,4 @@
-import Sun from "./components/Sun"
-import Earth from "./components/Earth"
-import Mercury from "./components/Mercury";
-import Venus from "./components/Venus";
+
 import Planet from "./components/Planet";
 import { useEffect, useState } from "react";
 
@@ -25,12 +22,8 @@ function App() {
 
   return (
     <div>
-      {mappedPlanets}
-      {/* <Sun className="sun"/>
-      <Mercury />
-      <Venus className="venus" />
-      <Earth/> */}
-     
+      <ul className="wrapper">{mappedPlanets}</ul> 
+      
     </div>
   );
 }

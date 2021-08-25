@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "sun",
-        "image": "https://pngimg.com/uploads/sun/sun_PNG13424.png",
+        "image": "https://lh3.googleusercontent.com/proxy/SOCvhm7SPEbtiDlsyOJEjKgsqDohFT4n3lviXyDpedhS4F5gPL6KcpLcN-gHZaJSmOeojkxbhmwcHObUhsz7e9eu1ISGMM0",
         "header": "A ball of fire responsible of all life we know",
         "detailedImage": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
         "description": ""
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "mercury",
-        "image": "https://www.pngall.com/wp-content/uploads/2/Mercury-Planet-PNG.png",
+        "image": "https://igm.space/gifs/Mercury.gif",
         "header": "A ball of fire responsible of all life we know",
         "detailedImage": "",
         "description": ""
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "venus",
-        "image": "https://e7.pngegg.com/pngimages/9/84/png-clipart-planet-venus-symbol-venus-atmosphere-sphere-thumbnail.png",
+        "image": "https://igm.space/gifs/Venus.gif",
         "header": "A ball of fire responsible of all life we know",
         "detailedImage": "",
         "description": ""
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "earth",
-        "image": "https://www.pngkit.com/png/full/252-2529482_planet-earth-png-picture-spinning-planet.png",
+        "image": "https://igm.space/gifs/Earth.gif",
         "header": "The Place We Call Home",
         "detailedImage": "",
         "description": ""
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "mars",
-        "image": "https://toppng.com/uploads/preview/lanet-mars-covered-in-green-vines-planet-mars-11563649474gquoicx4c3.png",
+        "image": "https://igm.space/gifs/mars.gif",
         "header": "Plossibly Mandkind's Second Home",
         "detailedImage": "",
         "description": ""
@@ -42,7 +42,31 @@
     {
         "id": 6,
         "name": "jupiter",
-        "image": "https://w7.pngwing.com/pngs/810/795/png-transparent-jupiter-the-nine-planets-solar-system-saturn-jupiter-sphere-venus-solar-system.png",
+        "image": "https://igm.space/gifs/Jupiter.gif",
+        "header": "The Earths Defense",
+        "detailedImage": "",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "saturn",
+        "image": "https://igm.space/gifs/saturn.gif",
+        "header": "The Earths Defense",
+        "detailedImage": "",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "name": "uranus",
+        "image": "https://igm.space/gifs/Uranus.gif",
+        "header": "The Earths Defense",
+        "detailedImage": "",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "name": "neptun",
+        "image": "https://igm.space/gifs/Neptune.gif",
         "header": "The Earths Defense",
         "detailedImage": "",
         "description": ""
