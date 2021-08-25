@@ -1,9 +1,8 @@
-import Sun from "./components/Sun"
-import Earth from "./components/Earth"
-import Mercury from "./components/Mercury";
-import Venus from "./components/Venus";
 import Planet from "./components/Planet";
+import NavBar from "./components/NavBar";
 import { useEffect, useState } from "react";
+import { Switch, Route } from "react-router-dom";
+
 
 
 
@@ -11,6 +10,8 @@ function App() {
   const API = "http://localhost:3000/planets"
 
  const [planets, setPlanets] = useState([])
+
+ const [page, setPage]= useState("/")
  
   useEffect(()=>{
   fetch(API)
@@ -24,14 +25,21 @@ function App() {
   })
 
   return (
-    <div>
-      {mappedPlanets}
+    <>
+      <NavBar setPage={setPage} className="nav" />
+      <Switch>
+        <Route path="/">
+          <ul className="wrapper" >
+            {mappedPlanets}
+          </ul> 
+        </Route>
+      </Switch>
       {/* <Sun className="sun"/>
       <Mercury />
       <Venus className="venus" />
       <Earth/> */}
      
-    </div>
+    </>
   );
 }
 
