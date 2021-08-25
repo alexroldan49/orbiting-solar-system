@@ -4,8 +4,10 @@ function Planet({planet}){
 
     return(
         <div className={planet.name}>
-            <img className = "planet" src={planet.image} />
-            <div className = "shadow"></div>
+           <div className ="planet" style={{ backgroundImage: `url(${planet.image})` }}>
+           <div className = "shadow" style={{backgroundImage: `url(${planet.shadow})`}}></div>
+            </div>
+
         </div>
         
 
