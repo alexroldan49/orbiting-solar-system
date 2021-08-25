@@ -1,12 +1,5 @@
 {"planets":[
-    {
-        "id": 1,
-        "name": "sun",
-        "image": "https://lh3.googleusercontent.com/proxy/SOCvhm7SPEbtiDlsyOJEjKgsqDohFT4n3lviXyDpedhS4F5gPL6KcpLcN-gHZaJSmOeojkxbhmwcHObUhsz7e9eu1ISGMM0",
-        "header": "A ball of fire responsible of all life we know",
-        "detailedImage": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
-        "description": ""
-    },
+     
     {
         "id": 2,
         "name": "mercury",

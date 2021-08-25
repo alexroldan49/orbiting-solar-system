@@ -2,8 +2,7 @@ import Planet from "./components/Planet";
 import NavBar from "./components/NavBar";
 import { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
-
-
+import Sun from "./components/Sun";
 
 
 function App() {
@@ -31,8 +30,9 @@ function App() {
       <Switch>
         <Route path="/">
           <ul className="wrapper" >
+            <Sun/>
             {mappedPlanets}
-          </ul> 
+          </ul>
         </Route>
       </Switch>
     </>
