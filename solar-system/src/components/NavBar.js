@@ -10,9 +10,21 @@ function NavBar({setPage}){
 
     return (
           <nav className="nav">
-              <li><a onClick={handleClick} >Home</a></li>
-              <li><a onClick={handleClick} >About</a></li>
-              <li><a onClick={handleClick} >Comments</a></li>
+              <li><a href="#" onClick={handleClick} >Home</a></li>
+              <li><a href="#" onClick={handleClick} >Planets<span className="fas fa-caret-down" ></span></a>
+                <ul>
+                    <li><a>Earth</a></li>
+                    <li><a>Mars</a></li>
+                    <li><a>Venus</a></li>
+                    <li><a>Jupiter</a></li>
+                    <li><a>Saturn</a></li>
+                    <li><a>Mercury</a></li>
+                    <li><a>Uranus</a></li>
+                    <li><a>Neptune</a></li>
+                </ul>
+              </li>
+              <li><a href="#" onClick={handleClick} >Learn More</a></li>
+              <li><a href="#" onClick={handleClick} >Contact Us</a></li>
           </nav>  
     )
 }

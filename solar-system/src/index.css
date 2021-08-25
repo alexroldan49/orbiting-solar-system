@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* user-select: none; */
+  /* box-sizing: border-box; */
+}
 html {
   background-color: black;
 }
@@ -101,17 +107,51 @@ body{
   transform-style: preserve-3d;
   height: 0px;
 }
+li{
+  list-style: none;
+}
 
+ .nav a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 200px;
+  font-family: 'Julius Sans One', sans-serif;
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.6s;
+  transition-property:background ;
+}
 
+.nav a:hover{
+  background: rgb(30, 95, 216);
+}
 .nav {
-  display: flex;
-  justify-content: space-around;
-  width: 200px;
-  height: 200%;
-  background-color:rgba(54, 54, 54, 0.109);
-
-  color: white
-
+ position:fixed;
+ margin-left: 0;
+ padding-left: 0;
+ top: 0;
+ color: rgb(255, 255, 255);
+ background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0,0,0));
+ background-color: rgba(160, 159, 159, 0.13);
+ nav-left: auto;
+ height: 100%;
+ width: 150px;
+ overflow: hidden;
+}
+.nav ul{
+  display: none;
+  line-height:100px;
+  position:static
+}
+.nav ul li{
+  line-height: 100px;
+}
+.nav ul li a{
+  padding-left: 20px;
+  line-height: 70px;
+  font-size: 12px;
 }
 #btn {
   background-color: transparent;
@@ -136,7 +176,7 @@ body{
   top: 0px;
   border-radius: 250px;
   margin: 0 auto;
-  animation: spinsun 60s infinite linear;
+ 
 }
 .planet {
   background-size: cover;
