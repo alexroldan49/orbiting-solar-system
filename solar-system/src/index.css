@@ -87,6 +87,7 @@ body{
   height: 0px;
 }
 
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -102,8 +103,7 @@ body{
 }
 
 .sun {
-  /* border: none;
-  background-color: transparent; */
+
   width: 250px;
   position: absolute;
   top: 0px;
@@ -115,11 +115,13 @@ body{
   background-color: transparent;
   width: 250px;
   height: 250px;
-  background: url(https://igm.space/gifs/sun350.gif) no-repeat;
+ position: absolute;
   background-size: cover;
+  z-index: 1;
+  top: 0px;
   border-radius: 250px;
   margin: 0 auto;
-  animation: spinsun 40s infinite linear;
+  animation: spinsun 0s infinite linear;
 }
 .planet {
   background-size: cover;
@@ -210,16 +212,69 @@ body{
   position: absolute;
   width: 1100px;
   z-index:6;
-  animation: orbitjupiter 50s infinite linear;
+  animation: orbitjupiter 10s infinite linear;
   top: -64px;
 }
 .jupiter .planet {
   width:128px;
   height:128px;
-  background-image: url(https://igm.space/gifs/Jupiter.gif);
-  animation: anti-spin 50s infinite linear;
+  animation: anti-spin 10s infinite linear;
 }
 .jupiter .shadow {
-  animation: shadow 50s infinite linear;
+  animation: shadow 10s infinite linear;
 }
-/* */
+.saturn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 1000px;
+  z-index:4;
+  animation: orbitearth 20s infinite linear;
+  top: -20px;
+}
+.saturn .planet {
+  width:100px;
+  height:100px;
+  background-image: url();
+  animation: anti-spin 20s infinite linear;
+}
+.saturn .shadow {
+  animation: shadow 20s infinite linear;
+}
+
+.uranus {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 610px;
+  z-index:4;
+  animation: orbitearth 20s infinite linear;
+  top: -20px;
+}
+.uranus .planet {
+  width:40px;
+  height:40px;
+  background-image: url();
+  animation: anti-spin 20s infinite linear;
+}
+.uranus .shadow {
+  animation: shadow 20s infinite linear;
+}
+.neptun {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 610px;
+  z-index:4;
+  animation: orbitearth 20s infinite linear;
+  top: -20px;
+}
+.neptun .planet {
+  width:40px;
+  height:40px;
+  background-image: url();
+  animation: anti-spin 20s infinite linear;
+}
+.neptun .shadow {
+  animation: shadow 20s infinite linear;
+}

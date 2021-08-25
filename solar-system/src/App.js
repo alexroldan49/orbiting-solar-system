@@ -25,6 +25,7 @@ function App() {
   })
 
   return (
+
     <>
       <NavBar setPage={setPage} className="nav" />
       <Switch>
@@ -34,11 +35,6 @@ function App() {
           </ul> 
         </Route>
       </Switch>
-      {/* <Sun className="sun"/>
-      <Mercury />
-      <Venus className="venus" />
-      <Earth/> */}
-     
     </>
   );
 }
