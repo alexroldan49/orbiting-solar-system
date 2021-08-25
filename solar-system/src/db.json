@@ -6,7 +6,8 @@
         "image": "https://igm.space/gifs/Mercury.gif",
         "header": "A ball of fire responsible of all life we know",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 3,
@@ -14,7 +15,8 @@
         "image": "https://igm.space/gifs/Venus.gif",
         "header": "A ball of fire responsible of all life we know",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 4,
@@ -22,7 +24,10 @@
         "image": "https://igm.space/gifs/Earth.gif",
         "header": "The Place We Call Home",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "popultion": "7.674 Billion",
+        "moon": "Earth's moon is ",
+        "comments": []
     },
     {
         "id": 5,
@@ -30,7 +35,8 @@
         "image": "https://igm.space/gifs/mars.gif",
         "header": "Plossibly Mandkind's Second Home",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 6,
@@ -38,7 +44,8 @@
         "image": "https://igm.space/gifs/Jupiter.gif",
         "header": "The Earths Defense",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 7,
@@ -46,7 +53,8 @@
         "image": "https://igm.space/gifs/saturn.gif",
         "header": "The Earths Defense",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 8,
@@ -54,7 +62,8 @@
         "image": "https://igm.space/gifs/Uranus.gif",
         "header": "The Earths Defense",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     },
     {
         "id": 9,
@@ -62,6 +71,7 @@
         "image": "https://igm.space/gifs/Neptune.gif",
         "header": "The Earths Defense",
         "detailedImage": "",
-        "description": ""
+        "description": "",
+        "comments": []
     }
 ]}

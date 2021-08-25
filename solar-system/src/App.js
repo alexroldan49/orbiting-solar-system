@@ -18,9 +18,12 @@ function App() {
   .then(data => setPlanets(data))
   },[])
   
+  function handleChange(){
+    return console.log("working")
+  }
 
   const mappedPlanets = planets.map((planet)=>{
-    return <Planet key={planet.id} planet={planet} />
+    return <Planet key={planet.id} planet={planet}  />
   })
 
   return (
@@ -28,11 +31,14 @@ function App() {
     <>
       <NavBar setPage={setPage} className="nav" />
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <ul className="wrapper" >
             <Sun/>
             {mappedPlanets}
           </ul>
+        </Route>
+        <Route path="/Earth">
+
         </Route>
       </Switch>
     </>
