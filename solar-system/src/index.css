@@ -88,6 +88,19 @@ body{
 }
 
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  height: 200%;
+  background-color:rgba(54, 54, 54, 0.109);
+
+  color: white
+
+}
+#btn {
+  background-color: transparent;
+}
 
 .sun {
 
