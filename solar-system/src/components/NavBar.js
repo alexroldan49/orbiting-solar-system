@@ -10,9 +10,10 @@ function NavBar({setPage}){
 
     return (
           <nav className="nav">
-              <li><a onClick={handleClick} >Home</a></li>
-              <li><a onClick={handleClick} >About</a></li>
-              <li><a onClick={handleClick} >Comments</a></li>
+              <li><a href="#" onClick={handleClick} >Home</a></li>
+              <li><a href="#" onClick={handleClick} >Planets</a></li>
+              <li><a href="#" onClick={handleClick} >Learn More</a></li>
+              <li><a href="#" onClick={handleClick} >Contact Us</a></li>
           </nav>  
     )
 }
