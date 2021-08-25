@@ -1,5 +1,5 @@
 html {
-  background-color: #000;
+  background-image: url("components/Images/background.png");
 }
 body{
   height: 100%;
@@ -59,6 +59,21 @@ body{
   99% { z-index:-7; }
   100%   { z-index:7; transform: rotateY(360deg); }
 }
+@keyframes orbituranus {
+  0% { z-index:8; transform: rotateY(270); }
+  49% { z-index:8; }
+  50% { z-index:-8; }
+  99% { z-index:-8; }
+  100%   { z-index:8; transform: rotateY(360deg); }
+}
+@keyframes orbitneptun {
+  0% { z-index:9; transform: rotateY(270); }
+  49% { z-index:9; }
+  50% { z-index:-9; }
+  99% { z-index:-9; }
+  100%   { z-index:9; transform: rotateY(360deg); }
+}
+
 /* Keep planet image flat */
 @keyframes anti-spin {
   from { transform: rotateY(0); }
@@ -180,66 +195,66 @@ body{
   position: absolute;
   width: 610px;
   z-index:4;
-  animation: orbitearth 20s infinite linear;
+  animation: orbitearth 12.00021s infinite linear;
   top: -20px;
 }
 .earth .planet {
   width:50px;
   height:50px;
   background-image: url();
-  animation: anti-spin 20s infinite linear;
+  animation: anti-spin 12.00021s infinite linear;
 }
 .earth .shadow {
-  animation: shadow 20s infinite linear;
+  animation: shadow 12.00021s infinite linear;
 }
 .mars {
   position: absolute;
   width: 706px;
   z-index:5;
-  animation: orbitmars 30s infinite linear;
+  animation: orbitmars 22.57017s infinite linear;
   top: -11px;
 }
 .mars .planet {
   width:22px;
   height:22px;
   background-image: url();
-  animation: anti-spin 30s infinite linear;
+  animation: anti-spin 22.57017s infinite linear;
 }
 .mars .shadow {
-  animation: shadow 30s infinite linear;
+  animation: shadow 22.57017s infinite linear;
 }
 .jupiter {
   position: absolute;
   width: 1100px;
   z-index:6;
-  animation: orbitjupiter 20s infinite linear;
+  animation: orbitjupiter 142.35138s infinite linear;
   top: -64px;
 }
 .jupiter .planet {
   width:128px;
   height:128px;
-  animation: anti-spin 20s infinite linear;
+  animation: anti-spin 142.35138s infinite linear;
 }
 .jupiter .shadow {
-  animation: shadow 20s infinite linear;
+  animation: shadow 142.35138s infinite linear;
 }
 .saturn {
   border: none;
   background-color: transparent;
   position: absolute;
   width: 1000px;
-  z-index:4;
-  animation: orbitearth 20s infinite linear;
+  z-index:7;
+  animation: orbitsaturn 353.36998s infinite linear;
   top: -20px;
 }
 .saturn .planet {
   width:100px;
   height:100px;
   background-image: url();
-  animation: anti-spin 20s infinite linear;
+  animation: anti-spin 353.36998s infinite linear;
 }
 .saturn .shadow {
-  animation: shadow 20s infinite linear;
+  animation: shadow 353.36998s infinite linear;
 }
 
 .uranus {
@@ -247,34 +262,34 @@ body{
   background-color: transparent;
   position: absolute;
   width: 610px;
-  z-index:4;
-  animation: orbitearth 20s infinite linear;
+  z-index:8;
+  animation: orbituranus 1008.20215s infinite linear;
   top: -20px;
 }
 .uranus .planet {
   width:40px;
   height:40px;
   background-image: url();
-  animation: anti-spin 20s infinite linear;
+  animation: anti-spin 1008.20215s infinite linear;
 }
 .uranus .shadow {
-  animation: shadow 20s infinite linear;
+  animation: shadow 1008.20215s infinite linear;
 }
 .neptun {
   border: none;
   background-color: transparent;
   position: absolute;
   width: 610px;
-  z-index:4;
-  animation: orbitearth 20s infinite linear;
+  z-index:9;
+  animation: orbitneptun 1977.49584s infinite linear;
   top: -20px;
 }
 .neptun .planet {
   width:40px;
   height:40px;
   background-image: url();
-  animation: anti-spin 20s infinite linear;
+  animation: anti-spin 1977.49584s infinite linear;
 }
 .neptun .shadow {
-  animation: shadow 20s infinite linear;
+  animation: shadow 1977.49584s infinite linear;
 }
