@@ -5,6 +5,10 @@ function Comments({planet, API}){
     const [user, setUser] = useState("")
     const [comment, setComment] = useState("")
     const [submittedCom, setSubmittedCom] = useState([])
+    // const [comObj, setComObj] = useState({
+    //     user:"",
+    //     comment:""
+    // })
     
 
     function handleUserChange(e){
@@ -14,15 +18,26 @@ function Comments({planet, API}){
     function handleCommentChange(e){
         return setComment(e.target.value)
     }
+    // function handleNewCom(e){
+    //     return setComObj({
+    //         ...comObj,
+    //         [e.target.name : e.target.value]
+    //     })
+    // }
 
     function submitComment(e){
         e.preventDefault()
+
+        // const newComment = [...planet.comments,comment ]
+        // console.log(newComment)
         fetch(`${API}/${planet.id}`,{
             method: "PATCH",
-            header:{
+            headers:{
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({user: user, comment: comment}),
+            body: JSON.stringify({
+                comments: [...planet.comments,{user: user, comment: comment}]
+              })
         }).then(()=>{
             if(user.length && comment.length > 0){
             const comData = { user: user, comment: comment};

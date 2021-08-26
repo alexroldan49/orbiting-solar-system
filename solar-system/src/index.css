@@ -174,8 +174,10 @@ li{
   list-style: none;
 }
 .planetMain{
-  background-image: url("https://ak.picdn.net/shutterstock/videos/1026936281/thumb/1.jpg?ip=x480") ;
-  background: linear-gradient(to right top, rgb(0, 0, 0)50%, rgba(97, 68, 22, 0.431) ); 
+  background-image: url("https://videohive.img.customer.envatousercontent.com/files/a3dcd05b-8e52-4f23-ae0b-962d5ffae077/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=b369db7d488dfed7b5197ebe74762800") ;
+  background: linear-gradient(to right top, rgb(0, 0, 0)30%, rgba(149, 104, 32, 0.513) ); 
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .PlanetPage{
@@ -203,12 +205,10 @@ li{
   margin-left: 155px;
   padding:20px;
   padding-right: 60px;
-  border-radius: 50px;
+  border-radius: 20px;
   border-style:double;
   border-left-color: rgb(144, 0, 31);
   border-width: 10px;
-  border-bottom-left-radius:200px ;
-  border-bottom-right-radius: 200px;
   
 }
 .PlanetPageA img{
