@@ -3,6 +3,17 @@
   padding: 0;
   /* user-select: none; */
   /* box-sizing: border-box; */
+  font-family: 'Spartan', sans-serif;
+}
+h4{
+  margin: 10px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+h3{
+  font-size: 21px;
+  font-weight:normal;
 }
 html {
   background-color: black;
@@ -11,6 +22,7 @@ body{
   height: 100%;
   top: 0px;
   bottom: 0px;
+  background-color: black;
 }
 @keyframes spinsun {
   0% { transform: rotate(0); }
@@ -107,8 +119,102 @@ body{
   transform-style: preserve-3d;
   height: 0px;
 }
+.comments{
+  display: flex;
+  gap: 3em;
+  flex-direction:row ;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+/* .comments >*{
+ 
+} */
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+  font-size: 16px;
+}
+input [type=text]:focus {
+  width: 150%;
+  height: 90px;
+}
+textarea{
+  width: 100%;
+  height:70px;
+  text-align:left;
+  margin: 20px 0;
+  font-size: 20px;
+  padding:6px
+}
+.commentSection{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+.commentCard{
+  display: flex;
+  gap: 5em;
+  height:auto;
+  width: 100px;
+  background-color: rgb(54, 54, 54);
+  align-items: center;
+  justify-content: center;
+}
 li{
   list-style: none;
+}
+.planetMain{
+  background-image: url("https://videohive.img.customer.envatousercontent.com/files/a3dcd05b-8e52-4f23-ae0b-962d5ffae077/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=b369db7d488dfed7b5197ebe74762800") ;
+  background: linear-gradient(to right top, rgb(0, 0, 0)30%, rgba(149, 104, 32, 0.513) ); 
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.PlanetPage{
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+.PlanetPage > *{
+  flex-basis: 20%;
+  margin-top: 80px;
+  
+}
+.PlanetPage h1{
+  margin-left: 50px;
+}
+.PlanetPageA{
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  flex-wrap: wrap;
+}
+.PlanetPageA > *{
+  flex-basis: 35%;
+  background-color: rgba(251, 249, 247, 0.842);
+  margin-left: 155px;
+  padding:20px;
+  padding-right: 60px;
+  border-radius: 20px;
+  border-style:double;
+  border-left-color: rgb(144, 0, 31);
+  border-width: 10px;
+  
+}
+.PlanetPageA img{
+  height: 400px;
+  width: 50%;
+  background-color: rgb(34, 34, 34);
 }
 
  .nav a {
@@ -141,7 +247,7 @@ li{
  overflow: hidden;
 }
 .nav ul{
-  display: none;
+  /* display: none; */
   line-height:100px;
   position:static
 }
@@ -152,6 +258,16 @@ li{
   padding-left: 20px;
   line-height: 70px;
   font-size: 12px;
+}
+h1{
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+h2{
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: 22px;
 }
 #btn {
   background-color: transparent;

@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import Sun from "./components/Sun";
+import PlanetPage from "./components/PlanetPage";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
  const [planets, setPlanets] = useState([])
 
  const [page, setPage]= useState("/")
+ 
  
   useEffect(()=>{
   fetch(API)
@@ -23,13 +25,20 @@ function App() {
   }
 
   const mappedPlanets = planets.map((planet)=>{
-    return <Planet key={planet.id} planet={planet}  />
+    return <Planet setPage={setPage} key={planet.id} planet={planet}  />
   })
 
+  const mappedPlanetPage = planets.map((planet)=>{
+    return (
+        <Route path={`/${planet.name}`} >
+          <PlanetPage planet={planet} API={API} />
+          </Route>
+    )
+  })
   return (
 
     <>
-      <NavBar setPage={setPage} className="nav" />
+      <NavBar planets={planets} setPage={setPage} className="nav" />
       <Switch>
         <Route exact path="/">
           <ul className="wrapper" >
@@ -37,9 +46,7 @@ function App() {
             {mappedPlanets}
           </ul>
         </Route>
-        <Route path="/Earth">
-
-        </Route>
+        {mappedPlanetPage}
       </Switch>
     </>
   );
