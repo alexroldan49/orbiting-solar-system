@@ -13,6 +13,7 @@ h4{
 }
 h3{
   font-size: 21px;
+  color :aliceblue;
   font-weight:normal;
   word-spacing: 5px;
   font-family: inherit;
@@ -21,12 +22,18 @@ h3{
 }
 html {
   background-color: black;
+  background-size: cover;
+  background-image: url(Images/4669390.jpg);
+  
 }
 body{
   height: 100%;
   top: 0px;
   bottom: 0px;
-  background-color: black;
+  background-repeat: no-repeat;
+  background-position:top;
+  background-image: url(https://fontmeme.com/permalink/210827/9622bd6d58fd382d4c892521f343d2f7.png);
+  
 }
 button {
   padding: 10px;
@@ -82,7 +89,7 @@ button {
   99% { z-index:-6; }
   100%   { z-index:6; transform: rotateY(360deg); }
 }
-@keyframes orbitsaturn {
+/* @keyframes orbitsaturn {
   0% { z-index:7; transform: rotateY(270); }
   49% { z-index:7; }
   50% { z-index:-7; }
@@ -102,7 +109,7 @@ button {
   50% { z-index:-9; }
   99% { z-index:-9; }
   100%   { z-index:9; transform: rotateY(360deg); }
-}
+} */
 
 /* Keep planet image flat */
 @keyframes anti-spin {
@@ -192,14 +199,22 @@ li{
   list-style: none;
 }
 .planetMain{
-  background-image: url(Images/stary1268180.jpg) ;
-
-   background-size: cover; 
-   /* background: linear-gradient(to right top, rgb(0, 0, 0)30%, rgba(149, 104, 32, 0.513) );  */
-  object-fit: cover; 
+  background-image: url(Images/4669390.jpg) ;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  /*background: linear-gradient(to right top, rgb(0, 0, 0)30%, rgba(149, 104, 32, 0.513) ); */
+  
   background-repeat: no-repeat;
 }
+#Sun{
+height: 250px;  
+}
 
+#moon{
+  height:150px;
+}
 .PlanetPage{
   display: flex;
   gap: 3em;
@@ -225,14 +240,16 @@ li{
   margin-left: 155px;
   padding:20px;
   padding-right: 60px;
-  border-radius: 10px;
- 
+  border-radius: 20px;
+  
+  border-width: 10px;
   
 }
 .PlanetPageA img{
   height: 400px;
   width: 50%;
-  background-color: rgb(34, 34, 34);
+  margin-left: auto;
+  
 }
 
  .nav a {
@@ -247,6 +264,8 @@ li{
   transition: 0.6s;
   transition-property:background ;
 }
+
+
 
 .nav a:hover{
   background: rgb(30, 95, 216);
@@ -293,7 +312,7 @@ h2{
 
 .sun {
 
-  width: 250px;
+  width: 200px;
   position: absolute;
   top: 0px;
   z-index: 1;
@@ -397,20 +416,20 @@ h2{
 }
 .jupiter {
   position: absolute;
-  width: 1000px;
+  width: 900px;
   z-index:6;
   animation: orbitjupiter 40s infinite linear;
   top: -64px;
 }
 .jupiter .planet {
-  width:128px;
-  height:128px;
+  width:100px;
+  height:100px;
   animation: anti-spin 40s infinite linear;
 }
 .jupiter .shadow {
   animation: shadow 40s infinite linear;
 }
-.saturn {
+/* .saturn {
   border: none;
   background-color: transparent;
   position: absolute;
@@ -427,27 +446,27 @@ h2{
 }
 .saturn .shadow {
   animation: shadow 50s infinite linear;
-}
+  background-color: ;
+} */
 
-.uranus {
+/* .uranus {
   border: none;
   background-color: transparent;
   position: absolute;
   width: 1150px;
   z-index:8;
   animation: orbituranus 60s infinite linear;
-  top: -20px;
+  top: -10px;
 }
 .uranus .planet {
   width:40px;
   height:40px;
-  background-image: url();
   animation: anti-spin 60s infinite linear;
 }
 .uranus .shadow {
   animation: shadow 60s infinite linear;
-}
-.neptun {
+} */
+/* .neptun {
   border: none;
   background-color: transparent;
   position: absolute;
@@ -459,9 +478,10 @@ h2{
 .neptun .planet {
   width:40px;
   height:40px;
-  background-image: url();
+  background-color: transparent;
   animation: anti-spin 70s infinite linear;
+  border: none;
 }
 .neptun .shadow {
   animation: shadow 70s infinite linear;
-}
+} */
