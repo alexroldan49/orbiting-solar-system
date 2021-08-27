@@ -31,14 +31,14 @@ function App() {
   const mappedPlanetPage = planets.map((planet)=>{
     return (
         <Route path={`/${planet.name}`} >
-          <PlanetPage planet={planet} API={API} />
+          <PlanetPage planets={planets} setPlanets={setPlanets} planet={planet} API={API} />
           </Route>
     )
   })
   return (
 
     <>
-      <NavBar planets={planets} setPage={setPage} className="nav" />
+      <NavBar planets={planets} setPlanets={setPlanets} setPage={setPage} className="nav" />
       <Switch>
         <Route exact path="/">
           <ul className="wrapper" >

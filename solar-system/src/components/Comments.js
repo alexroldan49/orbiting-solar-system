@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
-function Comments({planet, API}){
+function Comments({planet, API, setPlanets}){
     const [user, setUser] = useState("")
     const [comment, setComment] = useState("")
     const [submittedCom, setSubmittedCom] = useState([])
@@ -30,37 +30,44 @@ function Comments({planet, API}){
 
         // const newComment = [...planet.comments,comment ]
         // console.log(newComment)
-        fetch(`${API}/${planet.id}`,{
-            method: "PATCH",
-            headers:{
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                comments: [...planet.comments,{user: user, comment: comment}]
-              })
-        }).then(()=>{
-            if(user.length && comment.length > 0){
-            const comData = { user: user, comment: comment};
-            const dataArray = [...submittedCom, comData];
-            setSubmittedCom(dataArray)
-            setUser("")
-            setComment("")}
-            else{
-                alert("UserName and Comment required")
-            }
-        })
+                fetch(`${API}/${planet.id}`,{
+                method: "POST",
+                body: JSON.stringify({
+                    comments: [...planet.comments,{user: user, comment: comment}]
+                  }),
+                headers:{
+                    "Content-Type": "application/json"
+                }
+                  .then(r=> r.json())
+                  .then(data=> console.log(data))
+            }).then(()=>{
+                if(user.length && comment.length > 0){
+                const comData = { user: user, comment: comment};
+                const dataArray = [ submittedCom, comData];
+                setSubmittedCom(dataArray)
+                console.log(dataArray)
+                // setPlanet(dataArray)
+                setUser("")
+                setComment("")}
+                else{
+                    alert("UserName and Comment required")
+                }
+            })
+           
     }
+
 
     const listOfSubmits = submittedCom.map((com)=>{
         return(
             <div className="commentCard">
+                <h4>UserName: {com.user}</h4>
                 <h3>
-                {com.user} : {com.comment}
+                    {com.comment}
                 </h3>
             </div>
         )
-
     })
+
 return(
     <>
         <div className="comments">

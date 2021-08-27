@@ -3,7 +3,7 @@ import Comments from "./Comments"
 
 
 
-function PlanetPage({planet, API}){
+function PlanetPage({planet, API, setPlanets, planets}){
     
     return(
         <div className="planetMain" >
@@ -25,7 +25,7 @@ function PlanetPage({planet, API}){
             <img src={planet.detailedImage} />
         </div>
         <div className="comments">
-            <Comments planet={planet} API={API} />
+            <Comments planets={planets} setPlanets={setPlanets} planet={planet} API={API} />
         </div>
         </div>
     )

@@ -8,7 +8,12 @@
       "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
       "description": "",
       "detailedImage": "",
-      "comments": []
+      "comments": [
+        {
+          "user": "aWDaWd",
+          "comment": "adadaDAWdA"
+        }
+      ]
     },
     {
       "id": 3,
@@ -18,7 +23,28 @@
       "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
       "detailedImage": "",
       "description": "",
-      "comments": []
+      "comments": [
+        {
+          "user": "testing",
+          "comment": "testing"
+        },
+        {
+          "user": "wdawdawd",
+          "comment": "wadawdawdawdawdawdawdawdawdawd"
+        },
+        {
+          "user": "the user",
+          "comment": "testing to see how far the comment will move the div and will probably have to adjust the css because it might hit 100% width\n"
+        },
+        {
+          "user": "kayla",
+          "comment": "yooo yooo yooooo whats up peeps!"
+        },
+        {
+          "user": "wdadawdawa",
+          "comment": "yooooooooooo"
+        }
+      ]
     },
     {
       "id": 4,
@@ -27,17 +53,21 @@
       "header": "The Place We Call Home",
       "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
       "detailedImage": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/meadow-in-rocky-mountain-national-park-royalty-free-image-1592402262.jpg",
-      "description": "In this large infinite universe, Earth is the only planet humanity calls home. Every piece of history made, every war fought, every emotion, joy, loss, achievement experienced, has all happened in this one rock in space.",
+      "description": "In this large infinite universe, Earth is the only planet humanity calls home. Every piece of history made, every war fought, every emotion, joy, loss, achievement experienced, has all happened in this one rock in space. The Earth's gravity is 2.66 times stronger than gravity on Mars. A special thing about earth is it's moon. Earth's moon is the fifth largest moon in the solar system. It is the only place beyond earth humans have set foot on. The moon is responsible for the ocean's tidal waves, and it's gravity stabilizes Earth's rotation.",
       "population": "Population: 7.674 Billion",
       "moon": "Earth's moon is ",
       "comments": [
         {
-          "user": "guy",
-          "comment": "hello World"
+          "user": "AWda",
+          "comment": "awd"
         },
         {
-          "user": "person",
-          "comment": "Hello Peeps"
+          "user": "aWdAW",
+          "comment": "AWDAW"
+        },
+        {
+          "user": "lets try this",
+          "comment": "time"
         }
       ]
     },
@@ -49,7 +79,16 @@
       "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
       "detailedImage": "",
       "description": "",
-      "comments": []
+      "comments": [
+        {
+          "user": "awdaw",
+          "comment": "awdawd"
+        },
+        {
+          "user": "awdaw",
+          "comment": "awdawd"
+        }
+      ]
     },
     {
       "id": 6,
@@ -89,7 +128,12 @@
       "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
       "detailedImage": "",
       "description": "",
-      "comments": []
+      "comments": [
+        {
+          "user": "awdawdawd",
+          "comment": "awdawdawd"
+        }
+      ]
     }
   ]
 }
