@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 
 function Comments({planet, API, setPlanets}){
     const [user, setUser] = useState("")
     const [comment, setComment] = useState("")
-    const [submittedCom, setSubmittedCom] = useState([])
+    const [submittedCom, setSubmittedCom] = useState([...planet.comments])
     // const [comObj, setComObj] = useState({
     //     user:"",
     //     comment:""
@@ -30,34 +30,38 @@ function Comments({planet, API, setPlanets}){
 
         // const newComment = [...planet.comments,comment ]
         // console.log(newComment)
-                fetch(`${API}/${planet.id}`,{
-                method: "POST",
-                body: JSON.stringify({
-                    comments: [...planet.comments,{user: user, comment: comment}]
-                  }),
-                headers:{
-                    "Content-Type": "application/json"
-                }
-                  .then(r=> r.json())
-                  .then(data=> console.log(data))
-            }).then(()=>{
-                if(user.length && comment.length > 0){
-                const comData = { user: user, comment: comment};
-                const dataArray = [ submittedCom, comData];
-                setSubmittedCom(dataArray)
-                console.log(dataArray)
-                // setPlanet(dataArray)
-                setUser("")
-                setComment("")}
-                else{
-                    alert("UserName and Comment required")
-                }
-            })
-           
+        fetch(`${API}/${planet.id}`,{
+            method: "PATCH",
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                comments: [...planet.comments,{user: user, comment: comment}]
+              })
+        }).then(()=>{
+            if(user.length && comment.length > 0){
+            const dataArray = [...submittedCom, {user: user, comment: comment}]
+            setSubmittedCom(dataArray)
+            setUser("")
+            setComment("")}
+            else{
+                alert("UserName and Comment required")
+            }
+        })
     }
 
+    const localComs = submittedCom.map((com)=>{
+        return(
+            <div className="commentCard">
+                <h4>UserName: {com.user}</h4>
+                <h3>
+                    {com.comment}
+                </h3>
+            </div>
+        )
+    })
 
-    const listOfSubmits = submittedCom.map((com)=>{
+    const listOfSubmits = planet.comments.map((com)=>{
         return(
             <div className="commentCard">
                 <h4>UserName: {com.user}</h4>
@@ -79,7 +83,8 @@ return(
         </div>
         <div>
                 <h3>Comments</h3>
-                {listOfSubmits}
+                {localComs}
+
         </div>
             </>
 )
