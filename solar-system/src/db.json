@@ -1,50 +1,120 @@
-{"planets":[
+{
+  "planets": [
     {
-        "id": 1,
-        "name": "Sun",
-        "image": "https://pngimg.com/uploads/sun/sun_PNG13424.png",
-        "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "https://assets.weforum.org/article/image/large_Bk2bCtbTv0OkYNkPQf5HzXjODd7dWjquesHVnA130ms.jpg",
-        "description": ""
+      "id": 1,
+      "name": "Sun",
+      "image": "https://lh3.googleusercontent.com/proxy/VdanhVWT-_K1rQ6HmO-JJVtaQT3q7C__CA8vx3-RY6mmjwfkjrHaf1b5vMOR-hI2hvMp5OJK0LwwapRZAoGAf1Wvw9QIVuA",
+      "header": "A ball of fire responsible of all life we know",
+      "shadow": "",
+      "description": "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma,[18][19] heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as visible light, ultraviolet light, and infrared radiation. It is by far the most important source of energy for life on Earth. Its diameter is about 1.39 million kilometres (864,000 miles), or 109 times that of Earth. Its mass is about 330,000 times that of Earth; it accounts for about 99.86% of the total mass of the Solar System.[20] Roughly three quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon and iron. The Sun is a G-type main-sequence star (G2V) based on its spectral class. As such, it is informally and not completely accurately referred to as a yellow dwarf (its light is closer to white than yellow). It formed approximately 4.6 billion[a][14][22] years ago from the gravitational collapse of matter within a region of a large molecular cloud.",
+      "detailedImage": "https://svs.gsfc.nasa.gov/vis/a010000/a011100/a011136/frames/1920x1080_16x9_30p/JHV_1600_Jan_7_2014_X_flare_0033.jpg",
+      "comments": [
+        {
+          "user": "person",
+          "comment": "hello peeps"
+        },
+        {
+          "user": "person",
+          "comment": "It's hotttt"
+        }
+      ]
     },
     {
-        "id": 2,
-        "name": "Mercury",
-        "image": "http://assets.stickpng.com/images/580b585b2edbce24c47b2709.png",
-        "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "",
-        "description": ""
+      "id": 2,
+      "name": "moon",
+      "image": "https://igm.space/gifs/moon.gif",
+      "header": "The only other place outside of Earth humanity had set foot",
+      "shadow": "",
+      "description": "The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia),[15] it is the largest natural satellite in the Solar System relative to the size of its planet,[f] the fifth largest satellite in the Solar System overall, and is larger than any known dwarf planet. Orbiting Earth at an average distance of 384,400 km (238,900 mi),[16] or about 30 times Earth's diameter, its gravitational influence slightly lengthens Earth's day and is the main driver of Earth's tides. The Moon is classified as a planetary-mass object and a differentiated rocky body, and lacks any significant atmosphere, hydrosphere, or magnetic field. Its surface gravity is about one-sixth of Earth's (0.1654 g); Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density. The Moon's orbit around Earth has a sidereal period of 27.3 days. During each synodic period of 29.5 days, the amount of visible surface illuminated by the Sun varies from none up to 100%, resulting in lunar phases that form the basis for the months of a lunar calendar. The Moon is tidally locked to Earth, which means that the length of a full rotation of the Moon on its own axis causes its same side (the near side) to always face Earth, and the somewhat longer lunar day is the same as the synodic period. That said, 59% of the total lunar surface can be seen from Earth through shifts in perspective due to libration",
+      "detailedImage": "https://videohive.img.customer.envatousercontent.com/files/fa9ae8ea-11f2-4b97-9cf3-3acacef583fc/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=540affe5ceed50479dc343442f6a2512",
+      "comments": []
     },
     {
-        "id": 3,
-        "name": "Venus",
-        "image": "https://e7.pngegg.com/pngimages/9/84/png-clipart-planet-venus-symbol-venus-atmosphere-sphere-thumbnail.png",
-        "header": "A ball of fire responsible of all life we know",
-        "detailed-image": "",
-        "description": ""
+      "id": 3,
+      "name": "mercury",
+      "image": "https://igm.space/gifs/Mercury.gif",
+      "header": "The closest planet to the sun",
+      "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
+      "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς). Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or the eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object but is often far more difficult to observe than Venus. From Earth, the planet telescopically displays the complete range of phases, similar to Venus and the Moon, which recurs over its synodic period of approximately 116 days.",
+      "detailedImage": "https://cdn.vox-cdn.com/thumbor/glLMcTp9IFG3Qc26fX4vSGHHF5E=/0x54:800x654/1400x1050/filters:focal(0x54:800x654):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49511269/NorthernVolcanicPlains_PDS15-sm.0.png",
+      "comments": []
     },
     {
-        "id": 4,
-        "name": "Earth",
-        "image": "https://www.pngkit.com/png/full/252-2529482_planet-earth-png-picture-spinning-planet.png",
-        "header": "The Place We Call Home",
-        "detailed-image": "",
-        "description": ""
+      "id": 4,
+      "name": "venus",
+      "image": "https://igm.space/gifs/Venus.gif",
+      "header": "",
+      "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
+      "detailedImage": "https://i0.wp.com/curiosityguide.org/wp-content/uploads/2020/09/Venus-surface.-Venus-What-does-Venus-look-like.-493613831-1607520008829.jpg?fit=829%2C681&ssl=1",
+      "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.[17][18] Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days.[19] It has a synodic day length of 117 Earth days and a sidereal rotation period of 243 Earth days. As a consequence, it takes longer to rotate about its axis than any other planet in the Solar System, and does so in the opposite direction to all but Uranus. This means the Sun rises in the west and sets in the east.[20] Venus does not have any moons, a distinction it shares only with Mercury among the planets in the Solar System.[21]",
+      "comments": []
     },
     {
-        "id": 5,
-        "name": "Mars",
-        "image": "https://toppng.com/uploads/preview/lanet-mars-covered-in-green-vines-planet-mars-11563649474gquoicx4c3.png",
-        "header": "",
-        "detailed-image": "",
-        "description": ""
+      "id": 5,
+      "name": "earth",
+      "image": "https://igm.space/gifs/Earth.gif",
+      "header": "The Place We Call Home",
+      "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
+      "detailedImage": "https://hips.hearstapps.com/countryliving.cdnds.net/16/33/768x384/landscape-1471358459-city.jpg?resize=480:*",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor and support life. About 29.2% of Earth's surface is land consisting of continents and islands. The remaining 70.8% is covered with water, mostly by oceans, seas, gulfs, and other salt-water bodies, but also by lakes, rivers, and other freshwater, which together constitute the hydrosphere. Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years, while its interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convective mantle that drives plate tectonics. Earth's atmosphere consists mostly of nitrogen and oxygen. More solar energy is received by tropical regions than polar regions and is redistributed by atmospheric and ocean circulation. Greenhouse gases also play an important role in regulating the surface temperature. A region's climate is not only determined by latitude, but also by elevation and proximity to moderating oceans, among other factors. Severe weather, such as tropical cyclones, thunderstorms, and heatwaves, occurs in most areas and greatly impacts life.",
+      "population": "Population: 7.674 Billion",
+      "moon": "Earth's moon is ",
+      "comments": [
+        {
+          "user": "person",
+          "comment": "Hello world!"
+        }
+      ]
     },
     {
-        "id": 5,
-        "name": "Jupiter",
-        "image": "https://w7.pngwing.com/pngs/810/795/png-transparent-jupiter-the-nine-planets-solar-system-saturn-jupiter-sphere-venus-solar-system.png",
-        "header": "The Earths Defense",
-        "detailed-image": "",
-        "description": ""
+      "id": 6,
+      "name": "mars",
+      "image": "https://igm.space/gifs/mars.gif",
+      "header": "Plossibly Mandkind's Second Home",
+      "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
+      "detailedImage": "https://upload.wikimedia.org/wikipedia/commons/d/dc/PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg",
+      "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet'.[17][18] The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.[19] Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.The days and seasons are comparable to those of Earth, because the rotational period as well as the tilt of the rotational axis relative to the ecliptic plane are similar. Mars is the site of Olympus Mons, the largest volcano and highest known mountain on any planet in the Solar System, and of Valles Marineris, one of the largest canyons in the Solar System. The smooth Borealis basin in the Northern Hemisphere covers 40% of the planet and may be a giant impact feature.[20][21] Mars has two moons, Phobos and Deimos, which are small and irregularly shaped. These may be captured asteroids, similar to 5261 Eureka, a Mars trojan",
+      "comments": []
+    },
+    {
+      "id": 7,
+      "name": "jupiter",
+      "image": "https://igm.space/gifs/Jupiter.gif",
+      "header": "The Earths Defense",
+      "shadow": "./shadow.png",
+      "detailedImage": "https://cdna.artstation.com/p/assets/images/images/003/037/842/large/dmitry-bogolyubov-jupiter.jpg?1468845329&dl=1",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its observed size.Jupiter is primarily composed of hydrogen, but helium comprises one quarter of its mass and one tenth of its volume. It likely has a rocky core of heavier elements, but like the other giant planets, Jupiter lacks a well-defined solid surface. The on-going contraction of its interior generates heat greater than the amount received from the Sun. Because of its rapid rotation, the planet's shape is that of an oblate spheroid; it has a slight but noticeable bulge around the equator. The outer atmosphere is visibly segregated into several bands at different latitudes, with turbulence and storms along their interacting boundaries. A prominent result of this is the Great Red Spot, a giant storm that is known to have existed since at least the 17th century, when it was first seen by telescope.",
+      "comments": []
+    },
+    {
+      "id": 8,
+      "name": "saturn",
+      "image": "https://igm.space/gifs/saturn.gif",
+      "header": "The planet most know for it's ring",
+      "shadow": "",
+      "detailedImage": "http://2xn68xillra36ryznxfl1ge2-wpengine.netdna-ssl.com/wp-content/uploads/5783bb1b1a000023006f9a3f.jpeg",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (♄) represents the god's sickle. The Romans named the seventh day of the week Saturday, Sāturni diēs ('Saturn's Day') no later than the 2nd century for the planet Saturn. Saturn's interior is most likely composed of a core of iron–nickel and rock (silicon and oxygen compounds). Its core is surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere. An electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, which is weaker than the Earth's, but which has a magnetic moment 580 times that of Earth due to Saturn's larger size. Saturn's magnetic field strength is around one-twentieth of Jupiter's.[28] The outer atmosphere is generally bland and lacking in contrast, although long-lived features can appear. Wind speeds on Saturn can reach 1,800 km/h (1,100 mph; 500 m/s), higher than on Jupiter but not as high as on Neptune.",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "name": "uranus",
+      "image": "https://igm.space/gifs/Uranus.gif",
+      "header": "",
+      "shadow": "https://lh3.googleusercontent.com/Yzn7E8QvGcWUABzgQDqygg5qI3cUlDNOCtjmtZlsu5W047XcET1TVZ9oaAM40hgVYoHiLtOJqGubXJpzHAFSaIYMyodx6-lO8ppxQu3bSgCC8VJvkCLPFvWhXdVmjmY3JyH4ZHwiUMQ2PGQT6Dggqe5drf_bROtkxL_2_Uv1aQsBeDPqj01Oi3jDnX8y3t_fQvxM5Y4kwlkdc8f2mv6EbzZSG0OB61WUnL57DkZ7X3GGbk96DljhmmvPxXJ_zrSPNycXGMEwaImmNP8SK9sWKcFBaRicfSo6wKdmXMkfvJPlSmCprZUxGtOth873toJeMGEPrNanRkC4O5MlwxkIli_kRxXBDngtygtfCXSLJtoudNUI2-_q_0OE1UwZqNYQ5WBhz9kxiSMPfZiYkcQYiNFJeNHhCcGW8FZ9doB5KTorW89r2h326f8JBo-xRL5c3irAJDpF1OGWL3SYDcS3w86Wv9u43f6CfCJ388efMcmr02yDCQXhVd2ymusWIcTEf9PPFMUqglFX81lbYT_SquPV3Ay1dO7txYS3pzetAGOHR9kIuPXNZ5pvvUug3pTr9tjjq5swzHmY4AUTcqsOXIhEwIs0_zUt_xKzE3Q7LgoVrvAJouWSxwnJpWk2ZHUzzg2u3Tq1IoOp3T6IpkKD09_RwiMhJsa0IKzqf9G8hkSynJgLHfSZkIjmhfbDAPGCW_3nppTeYCSibwtZYequZG0=w800-h200-no?authuser=0",
+      "detailedImage": "https://i.pinimg.com/originals/5c/90/ba/5c90bab9b9cd6e1e064e2582be362322.jpg",
+      "description": "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as 'ice giants' to distinguish them from the other giant planets. Uranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more 'ices' such as water, ammonia, and methane, along with traces of other hydrocarbons.[16] It has the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (−224 °C; −371 °F), and has a complex, layered cloud structure with water thought to make up the lowest clouds and methane the uppermost layer of clouds.",
+      "comments": []
+    },
+    {
+      "id": 10,
+      "name": "neptune",
+      "image": "https://igm.space/gifs/Neptune.gif",
+      "header": "",
+      "shadow": "",
+      "detailedImage": "https://cdna.artstation.com/p/assets/images/images/003/037/848/large/dmitry-bogolyubov-neptune.jpg?1468845387",
+      "description": "Neptune is the eighth and farthest known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi). It is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident or the Greek letter psi. Neptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to deduce that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier. Neptune was subsequently observed with a telescope on 23 September 1846[1] by Johann Galle within a degree of the position predicted by Le Verrier.",
+      "comments": []
     }
-]}
+  ]
+}
