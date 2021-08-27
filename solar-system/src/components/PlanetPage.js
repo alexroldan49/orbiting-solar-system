@@ -10,7 +10,7 @@ function PlanetPage({planet, API}){
         <div className="PlanetPage">
             <div></div>
             <div>
-                <img src={planet.image}/>
+                <img id={planet.name} src={planet.image}/>
                 <h1>{planet.name.toUpperCase()}</h1>
             </div>
             <div>

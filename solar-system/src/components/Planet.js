@@ -14,7 +14,6 @@ function Planet({planet, setPage}){
 
         </div>
         
-
     
     )
 

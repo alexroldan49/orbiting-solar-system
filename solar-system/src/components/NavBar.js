@@ -23,7 +23,7 @@ function NavBar({setPage, planets}){
               
             <Link to="/" >Home</Link>
               
-            <li><a href="#" onClick={handleClick} >Planets<span className="fas fa-caret-down" ></span></a>
+            <li><a href="#" onClick={handleClick} ><span className="fas fa-caret-down" ></span></a>
                 <ul>
                     {planetOption}
                 </ul>
